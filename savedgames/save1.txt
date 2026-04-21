@@ -1,0 +1,14 @@
+2
+r n b q k - n r p p p - - p p p - - - - - - - - - - - p b - - - - - - - - - - - - - P - B N - - P P - N P P P P R - - Q K B - R 
+11
+P: D2 -> D4
+p: D7 -> D5
+N: G1 -> F3
+p: E7 -> E6
+P: C2 -> C3
+b: F8 -> D6
+B: C1 -> E3
+p: E6 -> E5
+P: D4 -> E5
+b: D6 -> E5
+N: B1 -> D2

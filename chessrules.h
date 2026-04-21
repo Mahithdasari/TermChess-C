@@ -1,0 +1,14 @@
+int is_samecolor(char p1,char p2);
+int is_valid_knightmove(int start_r,int start_c,int end_r,int end_c);
+int is_valid_rookmove(char board[8][8],int sr,int sc,int er,int ec);
+int is_valid_bishopmove(char board[8][8],int sr,int sc,int er,int ec);
+int is_valid_queenmove(char board[8][8],int sr,int sc,int er,int ec);
+int is_valid_kingmove(char board[8][8],int sr,int sc,int er,int ec);
+int is_valid_pawnmove(char board[8][8],int sr,int sc,int er,int ec);
+int is_legalmove(char board[8][8],int start_r,int start_c,int end_r,int end_c);
+int is_square_underattack(char board[8][8],int r,int c,int enemyplayer);
+int is_in_check(char board[8][8],int player);
+int has_legal_moves(char board[8][8],int player);
+int is_pawnpromotion(char piece,int end_r);
+void pawn_promotion(char board[8][8],int r,int c,char newpiece);
+int material_advantage(char board[8][8]);

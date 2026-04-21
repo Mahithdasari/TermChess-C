@@ -1,0 +1,2 @@
+void save_game(char board[8][8],int player,char *filename,char move_history[256][16],int move_count);
+int load_game(char board[8][8],int *player,char *filename,char move_history[256][16],int *move_count);

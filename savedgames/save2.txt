@@ -1,0 +1,10 @@
+1
+- - k r - - - r p p p b - p p p - - - - p - - - - - - n P - - - - - q - - - - - - - N - - N Q - P P P R - P P P - - K - - - - R 
+7
+n: C6 -> D4
+R: D1 -> D4
+q: E7 -> C5
+R: D4 -> D2
+q: C5 -> C4
+P: E4 -> E5
+n: F6 -> D5
