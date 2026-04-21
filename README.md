@@ -28,9 +28,7 @@ make
 Or manually:
 gcc main.c chessUI.c chessrules.c chessio.c -lncurses -o chess_static
 ## run 
-./chess_static
-or if it was linked dynamically
-LD_LIBRARY_PATH=. .chess_dynamic
+./chess_static  or if it was linked dynamically then run LD_LIBRARY_PATH=. .chess_dynamic
 
 ## Controls
 
