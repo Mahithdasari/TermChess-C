@@ -20,6 +20,9 @@ This project allows two users to play chess in terminal.
   ## Requirements
 - gcc compiler
 - ncurses library
+- If you don't have ncurses
+- run : sudo apt-get install libncurses5-dev libncursesw5-dev (for linux)   
+-    brew install ncurses (For Mac)
 
 - ## Compilation
 Using Makefile:
@@ -43,3 +46,8 @@ Each file stores:
 - Board state
 - Current player
 - Move history
+- ##  File Structure
+* main.c: Controller - Manages the game loop, user input, and program states.
+* chessrules.c / .h: Model - Handles pure mathematical logic, move validation, and check logic.
+* chessUI.c / .h: View - Handles all ncurses screen drawing, menus, and color rendering.
+* chessio.c / .h: File I/O - Handles writing to and parsing from the savedgames/ directory.
