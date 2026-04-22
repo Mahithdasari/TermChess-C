@@ -39,7 +39,7 @@ gcc main.c chessUI.c chessrules.c chessio.c -lncurses -o chess_static
 - Enter → Select / Move piece
 - S → Save game
 - Q → Quit game
-- 
+- *Valid Move Highlighting [ ]: When you select a piece, all legal destination squares are highlighted with brackets. Because terminal environments have strict color-pairing limitations, this character-overlay method was chosen as the most reliable way to clearly show valid moves without breaking the board's visual contrast.
   ## Save/Load games
 Games are saved in the "savedgames/" directory.
 Each file stores:
